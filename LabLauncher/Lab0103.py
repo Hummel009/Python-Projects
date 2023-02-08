@@ -24,4 +24,5 @@ def launch():
         for j in range(n):
             if arr[i] == arr[j] and i != j and maxx < arr[i]:
                 maxx = arr[i]
+                
     print("Max duplicate:", maxx)
