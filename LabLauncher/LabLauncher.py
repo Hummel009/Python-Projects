@@ -9,10 +9,6 @@ import Lab0201
 import Lab0211
 import Lab0212
 
-myline = input()
-
-a = 0
-
 functions = {
     "0101": Lab0101.launch,
     "0102": Lab0102.launch,
@@ -23,8 +19,11 @@ functions = {
     "0108": Lab0108.launch,
     "0201": Lab0201.launch,
     "0211": Lab0211.launch,
-    "0212": Lab0212.launch,
+    "0212": Lab0212.launch
 }
+
+
+myline = input()
 
 if myline in functions:
     functions[myline]()
